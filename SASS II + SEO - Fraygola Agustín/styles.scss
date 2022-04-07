@@ -1,0 +1,54 @@
+$colors: (
+    blackish: rgb(20,33,61), /*bgcolor*/
+    yellowish: rgb(252,163,17), /*textcolor*/
+    redish: #F97, /*backgroundcolor*/
+);
+ 
+$fontsize: 18px;
+
+@mixin display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+body {
+    background-color: map-get($colors, blackish);
+    font-size: $fontsize;
+}
+
+h1 , h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: map-get($colors, yellowish);
+}
+
+.text-base {
+    @include display;
+}
+
+.text {
+    @extend .text-base;
+    background-color: map-get($colors, redish);
+    
+}
+
+.presentador {
+    @extend .text-base;
+    color: map-get($colors, yellowish);;
+    font-size: 40px;
+   
+}
+
+.opciones {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 10px;
+}
+
+.op {
+    background-color: map-get($colors, redish);
+    color: map-get($colors, blackish);
+}

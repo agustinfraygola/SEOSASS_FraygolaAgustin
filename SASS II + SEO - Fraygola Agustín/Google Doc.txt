@@ -1,0 +1,4 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+Descripción: utilice la etiqueta <meta name="descripcion"> para sumar la siguiente descripción: ¿Estresado por los examenes de ingles? Soltá el openEnglish y anotate a clases particulares de ingles con Emiliano Perez. Te esperamos con clases particulares y grupales de diferentes niveles adecuadas en función a ti.
+Keywords: con el <meta name="keywords" agregue palabras claves (tal como INGLES, CLASES PARTICULARES, EXAMENES y CAMBRIDGE) que ayuden a guiar y mejorar la busqueda de mi página web.
+En el encabezado puse el h1 con "Clases particulares de ingles" definiendo de manera simple el contenido de la pagina y el servicio que se ofrece
